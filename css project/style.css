@@ -1,0 +1,83 @@
+#second{ font-weight: bold;
+    font-size: 15px;
+    font-style: oblique;
+    font-stretch: expanded;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, san  s-serif;
+    text-transform: uppercase;
+    word-spacing: 8px;
+    
+   
+}
+
+#decoration {
+ 
+    text-decoration: underline;
+    line-height: 10;
+    letter-spacing: 3px;
+    text-align: center;
+   
+}
+#first::first-letter{
+    font-size: 100px;
+text-transform: uppercase;
+}
+
+#third::first-line{
+font-weight: bolder;
+}
+
+.link ul :link{
+color: aqua;
+background:magenta;
+}
+.link ul :visited{
+    color: blue;
+}
+
+.input :hover{
+background-color: brown;
+}
+  .head:active{
+  color: blue;
+  }  /*apply when we click it*/
+
+  .ofbox p{
+    height: 300px;
+width: 300px;
+background-color: #bbbbaa;
+
+}
+.ofbox{
+    background: #000;
+    height: 75%;
+    width: 75%;
+    border-width: 40px black bold;
+    border: 20px;
+}
+.four{
+    overflow: scroll;
+    height: 50px;
+    width: 50px;
+}
+
+
+#main.para{
+    border: 3px dotted #0088dd;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+
+
+
+
+
+
+
+
